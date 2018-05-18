@@ -1,0 +1,35 @@
+.widget-header {
+    background:$blue;
+    color: $off-white;
+    display:flex;
+    justify-content: space-between;
+    padding: $l-size;
+}
+.widget-header__title {
+    margin:0;
+}
+.widget {
+    margin-top:0rem;
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+.widget--options {
+    margin-bottom:0rem;
+    border-bottom-width: 80%;
+    border-bottom:0.1rem solid white;
+    
+}
+.center {
+    margin-top:3rem; 
+    margin-bottom:3rem;
+    text-align: center;
+    color:white;
+}
+.stretch {
+    width:100%;
+    margin-right:$m-size;
+
+}
+.widget--header--border {
+    border-bottom:none;
+}
